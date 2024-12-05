@@ -1,0 +1,132 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #945151;
+}
+
+/* Resume Container */
+.resume-container {
+    width: 75%;
+    max-width: 860px;
+    margin: 30px auto;
+    background-color: #908d87;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(59, 43, 43, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 0%; /* Circular Profile Photo */
+    border: 2px solid #6c193d;
+    margin-right: 20px;
+}
+
+header .contact-info h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #040103;
+}
+
+header .contact-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #622156;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #190a0a;
+    border-bottom: 2px solid #204962;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Objective Section */
+.objective p {
+    margin-top: 3px;
+    font-size: 20px;
+    color: #3d2020;
+    line-height: 1.6;
+}
+
+/* Education Table Styling */
+.education table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.education table, th, td {
+    border: 1px solid #938686;
+}
+
+.education th {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+}
+
+.education td {
+    padding: 10px;
+    color: #351919;
+}
+
+/* Skills and Interests Section */
+.skills-interests {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.skills, .interests {
+    width: 48%;
+}
+
+.skills ul, .interests ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skills ul li, .interests ul li {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #392222;
+}
+
+/* Contact Details Section */
+.contact-details p {
+    font-size: 18px;
+    color: #3a2222;
+    margin-bottom: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #041321;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}

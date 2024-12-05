@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9999a1; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2f1429;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #88a4b6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 95px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    width: 85%;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Section Title Styling */
+main h2 {
+    font-size: 25px;
+    color: #801e4a;
+    border-bottom: 2px solid #2f5a74;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+/* Personal Information Section */
+main p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #6d4d4d;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-section h2 {
+    font-size: 22px;
+    color: #5c1e43;
+    border-bottom: 2px solid #0b1821;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.contact-section p {
+    font-size: 20px;
+    color: #9a5d5d;
+    margin-bottom: 5px;
+}
+
+/* Footer Styling (if needed later) */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7c2770;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
